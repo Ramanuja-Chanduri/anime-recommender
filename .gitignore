@@ -15,7 +15,6 @@ venv/
 .env.*
 
 # Data & databases
-data/
 chroma_db/
 
 # Logs
