@@ -23,4 +23,4 @@ User's question:
 
 Your well-structured response:
 """
-    return PromptTemplate.from_template(template=template, input_variables=["context", "question"])
+    return PromptTemplate.from_template(template)

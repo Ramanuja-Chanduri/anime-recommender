@@ -16,6 +16,9 @@ class Config:
         self.MODEL_NAME = os.getenv("MODEL_NAME", "llama-3.1-8b-instant")
         self.EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
         
+        # Vector Store Configuration
+        self.VECTOR_STORE_PATH = os.getenv("VECTOR_STORE_PATH", "chroma_db")
+        
         # Validate required environment variables
         self._validate()
     
